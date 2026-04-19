@@ -1,0 +1,36 @@
+:root {
+    --dark: #000000;
+}
+* {
+    margin: 0px;
+    padding: 0;
+}
+.popi {
+    padding-block: 29px;
+}
+.popi__conatiner {
+    margin-inline: auto;
+}
+.popi__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popi__list {
+    display: flex;
+    list-style: none;
+    gap: 49px;
+}
+ul {
+    list-style: none;
+}
+.popi__list-link {
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: -0.47px;
+color: var(--dark);
+}
+a {
+ text-decoration: none;
+}
